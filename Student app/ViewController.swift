@@ -5,19 +5,7 @@
 //  Created by CS Student on 2017-11-02.
 //  Copyright © 2017 CS Student. All rights reserved.
 //
-var UserName = ""
 import UIKit
-
-func rotated() {
-    if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
-        print("Landscape")
-    }
-    
-    if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
-        print("Portrait")
-    }
-    
-}
 
 class ViewController: UIViewController {
     

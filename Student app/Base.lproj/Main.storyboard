@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5Jd-wq-JzC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5Jd-wq-JzC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -450,7 +450,7 @@
         <!--Login -->
         <scene sceneID="DGC-ue-UCk">
             <objects>
-                <viewController title="Login " id="5Jd-wq-JzC" sceneMemberID="viewController">
+                <viewController title="Login " id="5Jd-wq-JzC" customClass="LoginViewController" customModule="Student_app" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a3F-QF-OY7"/>
                         <viewControllerLayoutGuide type="bottom" id="ta8-IR-aMa"/>
@@ -517,13 +517,17 @@
                                     <color key="titleShadowColor" red="0.85298305750000003" green="0.60949414970000004" blue="0.16290742159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="BTN_Login:" destination="5Jd-wq-JzC" eventType="touchUpInside" id="c4i-Rz-tWf"/>
                                     <action selector="Login:" destination="1iN-Nj-Z2n" eventType="touchUpInside" id="Tgr-J0-BeW"/>
-                                    <segue destination="KqA-z8-z1S" kind="show" id="IO9-iM-EW9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.027576664720000001" green="0.175680432" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="Password" destination="m1F-lL-73T" id="be7-5y-kfO"/>
+                        <outlet property="Username" destination="0kD-VV-Li1" id="uKm-pc-xHa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kHT-k3-GQm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="1iN-Nj-Z2n" userLabel="Exit" sceneMemberID="exit"/>
