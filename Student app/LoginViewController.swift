@@ -27,6 +27,9 @@ class LoginViewController: UIViewController {
         if Username.text == "username" {
             if Password.text == "password" {
                 print("User logged in")
+                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let newViewController = storyBoard.instantiateViewController(withIdentifier: "HomeScreen") as! ViewController
+                self.present(newViewController, animated: true, completion: nil)
             }
         }
     }
