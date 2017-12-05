@@ -20,9 +20,10 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBOutlet weak var Label: UILabel!
     @IBOutlet weak var Username: UITextField!
     @IBOutlet weak var Password: UITextField!
-    
     @IBAction func BTN_Login(_ sender: UIButton) {
         if Username.text == "username" {
             if Password.text == "password" {
@@ -31,6 +32,12 @@ class LoginViewController: UIViewController {
                 let newViewController = storyBoard.instantiateViewController(withIdentifier: "HomeScreen") as! ViewController
                 self.present(newViewController, animated: true, completion: nil)
             }
+            else {
+                 Label.isHidden = false
+            }
+        }
+        else {
+           Label.isHidden = false
         }
     }
     
