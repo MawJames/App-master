@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var Label: UILabel!
+    @IBOutlet weak var InvalidInput: UILabel!
     @IBOutlet weak var Username: UITextField!
     @IBOutlet weak var Password: UITextField!
     @IBAction func BTN_Login(_ sender: UIButton) {
@@ -33,11 +33,11 @@ class LoginViewController: UIViewController {
                 self.present(newViewController, animated: true, completion: nil)
             }
             else {
-                 Label.isHidden = false
+                 InvalidInput.isHidden = false
             }
         }
         else {
-           Label.isHidden = false
+           InvalidInput.isHidden = false
         }
     }
 }
