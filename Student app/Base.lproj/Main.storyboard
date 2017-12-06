@@ -495,7 +495,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="yEd-DK-BzK">
-                                <rect key="frame" x="0.0" y="25" width="35" height="47"/>
+                                <rect key="frame" x="15" y="25" width="35" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m1F-lL-73T">
@@ -537,7 +537,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="RlV-tX-J7G">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="KqA-z8-z1S" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="NavigationBar" automaticallyAdjustsScrollViewInsets="NO" id="KqA-z8-z1S" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" backgroundImage="Nav Bar Background" selectionIndicatorImage="Active State" id="rhN-8S-kpi">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
