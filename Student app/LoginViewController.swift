@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var Label: UILabel!
+    @IBOutlet weak var InvalidInput: UILabel!
     @IBOutlet weak var Username: UITextField!
     @IBOutlet weak var Password: UITextField!
     @IBAction func BTN_Login(_ sender: UIButton) {
@@ -29,16 +29,15 @@ class LoginViewController: UIViewController {
             if Password.text == "password" {
                 print("User logged in")
                 let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-                let newViewController = storyBoard.instantiateViewController(withIdentifier: "HomeScreen") as! ViewController
+                let newViewController = storyBoard.instantiateViewController(withIdentifier: "NavigationBar")
                 self.present(newViewController, animated: true, completion: nil)
             }
             else {
-                 Label.isHidden = false
+                 InvalidInput.isHidden = false
             }
         }
         else {
-           Label.isHidden = false
+           InvalidInput.isHidden = false
         }
     }
-    
 }
