@@ -13,7 +13,7 @@
 		BC78F6A91FAB598900F167F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC78F6A81FAB598900F167F0 /* Assets.xcassets */; };
 		BC78F6AC1FAB598900F167F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC78F6AA1FAB598900F167F0 /* LaunchScreen.storyboard */; };
 		BC7E9D5C1FD1AE0B00EF9543 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E9D5B1FD1AE0B00EF9543 /* LoginViewController.swift */; };
-		BC7E9D9E1FD8407F00EF9543 /* SettingsButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E9D9D1FD8407F00EF9543 /* SettingsButtonController.swift */; };
+		BC7E9DA21FD9967100EF9543 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E9DA11FD9967100EF9543 /* SettingsViewController.swift */; };
 		BCA9EFC71FB9F5900046830C /* anke-art-README-deutsch.txt in Resources */ = {isa = PBXBuildFile; fileRef = BCA9EFC41FB9F58F0046830C /* anke-art-README-deutsch.txt */; };
 		BCA9EFC81FB9F5900046830C /* anke-art-README-english.txt in Resources */ = {isa = PBXBuildFile; fileRef = BCA9EFC51FB9F58F0046830C /* anke-art-README-english.txt */; };
 		BCA9EFC91FB9F5900046830C /* BarcodeFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCA9EFC61FB9F58F0046830C /* BarcodeFont.ttf */; };
@@ -47,7 +47,7 @@
 		BC78F6B21FAB598900F167F0 /* Student appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC78F6BD1FAB598A00F167F0 /* Student appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7E9D5B1FD1AE0B00EF9543 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		BC7E9D9D1FD8407F00EF9543 /* SettingsButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonController.swift; sourceTree = "<group>"; };
+		BC7E9DA11FD9967100EF9543 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BCA9EFC41FB9F58F0046830C /* anke-art-README-deutsch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "anke-art-README-deutsch.txt"; sourceTree = "<group>"; };
 		BCA9EFC51FB9F58F0046830C /* anke-art-README-english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "anke-art-README-english.txt"; sourceTree = "<group>"; };
 		BCA9EFC61FB9F58F0046830C /* BarcodeFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BarcodeFont.ttf; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 				BC78F6A11FAB598900F167F0 /* AppDelegate.swift */,
 				BC78F6A31FAB598900F167F0 /* ViewController.swift */,
 				BC78F6A51FAB598900F167F0 /* Main.storyboard */,
-				BC7E9D9D1FD8407F00EF9543 /* SettingsButtonController.swift */,
 				BC7E9D5B1FD1AE0B00EF9543 /* LoginViewController.swift */,
+				BC7E9DA11FD9967100EF9543 /* SettingsViewController.swift */,
 				BC78F6A81FAB598900F167F0 /* Assets.xcassets */,
 				BC78F6AA1FAB598900F167F0 /* LaunchScreen.storyboard */,
 				BC78F6AD1FAB598900F167F0 /* Info.plist */,
@@ -264,7 +264,7 @@
 			files = (
 				BC7E9D5C1FD1AE0B00EF9543 /* LoginViewController.swift in Sources */,
 				BC78F6A41FAB598900F167F0 /* ViewController.swift in Sources */,
-				BC7E9D9E1FD8407F00EF9543 /* SettingsButtonController.swift in Sources */,
+				BC7E9DA21FD9967100EF9543 /* SettingsViewController.swift in Sources */,
 				BC78F6A21FAB598900F167F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
