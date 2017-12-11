@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,20 +22,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HOME OF THE GOLDEN GAELS" translatesAutoresizingMaskIntoConstraints="NO" id="F0U-W1-v5W">
-                                <rect key="frame" x="98" y="326" width="184" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HOME OF THE GOLDEN GAELS" translatesAutoresizingMaskIntoConstraints="NO" id="F0U-W1-v5W">
+                                <rect key="frame" x="95" y="317" width="184" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="NAa-bh-pIY"/>
+                                    <constraint firstAttribute="height" constant="12" id="Q5M-zB-SdY"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="iOy-tm-A7i">
-                                <rect key="frame" x="169" y="262" width="36" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="iOy-tm-A7i">
+                                <rect key="frame" x="166" y="267" width="36" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="1Vr-Di-bfF"/>
+                                    <constraint firstAttribute="height" constant="42" id="5SD-9d-MJq"/>
+                                </constraints>
                             </imageView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="zt0-r7-zWq">
-                                <rect key="frame" x="169" y="362" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="zt0-r7-zWq">
+                                <rect key="frame" x="166" y="351" width="37" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="SWS-Ie-haQ"/>
+                                    <constraint firstAttribute="width" constant="37" id="msC-vJ-MTq"/>
+                                </constraints>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.00026711768180000001" green="0.2139321451" blue="0.00041441808919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="F0U-W1-v5W" firstAttribute="top" secondItem="iOy-tm-A7i" secondAttribute="bottom" constant="8" id="EEe-m7-ps6"/>
+                            <constraint firstItem="zt0-r7-zWq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="150" id="LGv-T2-KfV"/>
+                            <constraint firstItem="zt0-r7-zWq" firstAttribute="top" secondItem="F0U-W1-v5W" secondAttribute="bottom" constant="22" id="NcA-BP-0Nh"/>
+                            <constraint firstItem="F0U-W1-v5W" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="79" id="an1-TS-k2T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zt0-r7-zWq" secondAttribute="trailing" constant="156" id="mun-uA-sg1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F0U-W1-v5W" secondAttribute="trailing" constant="80" id="sKd-GB-a6b"/>
+                            <constraint firstItem="iOy-tm-A7i" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="247" id="yjJ-EG-9OK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
