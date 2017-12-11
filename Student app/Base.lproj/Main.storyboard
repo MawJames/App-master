@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Callender-->
+        <!--Calendar-->
         <scene sceneID="ppf-nB-hB7">
             <objects>
-                <viewController id="S9m-6x-jGR" userLabel="Callender" sceneMemberID="viewController">
+                <viewController id="S9m-6x-jGR" userLabel="Calendar" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CbA-ha-ZxO"/>
                         <viewControllerLayoutGuide type="bottom" id="fZS-5M-dXs"/>
@@ -21,8 +21,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-jr-Z1R">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-jr-Z1R">
                                 <rect key="frame" x="0.0" y="28" width="414" height="716"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Block Background" translatesAutoresizingMaskIntoConstraints="NO" id="3Ve-Mn-Eyk">
                                 <rect key="frame" x="18" y="121" width="378" height="114"/>
@@ -31,16 +32,19 @@
                                     <constraint firstAttribute="height" constant="114" id="3Xr-Dn-tPt"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Block Background" translatesAutoresizingMaskIntoConstraints="NO" id="Pel-jx-GnE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Block Background" translatesAutoresizingMaskIntoConstraints="NO" id="Pel-jx-GnE">
                                 <rect key="frame" x="18" y="243" width="378" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Block Background" translatesAutoresizingMaskIntoConstraints="NO" id="1uF-GE-ujE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Block Background" translatesAutoresizingMaskIntoConstraints="NO" id="1uF-GE-ujE">
                                 <rect key="frame" x="18" y="387" width="378" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Block Background" translatesAutoresizingMaskIntoConstraints="NO" id="K1N-tC-XaN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Block Background" translatesAutoresizingMaskIntoConstraints="NO" id="K1N-tC-XaN">
                                 <rect key="frame" x="18" y="513" width="378" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0F-9P-7HM">
@@ -72,7 +76,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Schedule" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKj-SQ-eqZ">
-                                <rect key="frame" x="112" y="28" width="150" height="35"/>
+                                <rect key="frame" x="132" y="38" width="150" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <color key="textColor" red="0.027576664720000001" green="0.175680432" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -166,35 +170,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8bZ-ko-uyA">
+                                <rect key="frame" x="13" y="36" width="35" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEp-Pg-jst">
-                                <rect key="frame" x="307" y="28" width="48" height="41"/>
+                                <rect key="frame" x="348" y="38" width="48" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Settings Icon"/>
                                 <connections>
                                     <segue destination="6g3-EQ-kNN" kind="show" id="qxL-B8-rUg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8bZ-ko-uyA">
-                                <rect key="frame" x="31" y="28" width="35" height="47"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.00026711768180000001" green="0.2139321451" blue="0.00041441808919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="3Ve-Mn-Eyk" secondAttribute="trailing" constant="18" id="40z-RZ-QO4"/>
-                            <constraint firstItem="Pel-jx-GnE" firstAttribute="leading" secondItem="hoZ-TS-lZE" secondAttribute="leading" constant="18" id="52i-mg-5Qn"/>
-                            <constraint firstAttribute="trailing" secondItem="w4n-jr-Z1R" secondAttribute="trailing" id="Ifu-p7-Hiz"/>
-                            <constraint firstAttribute="trailing" secondItem="1uF-GE-ujE" secondAttribute="trailing" constant="18" id="Szf-Kd-f3d"/>
-                            <constraint firstItem="w4n-jr-Z1R" firstAttribute="leading" secondItem="hoZ-TS-lZE" secondAttribute="leading" id="WFF-2B-krJ"/>
-                            <constraint firstItem="w4n-jr-Z1R" firstAttribute="top" secondItem="CbA-ha-ZxO" secondAttribute="bottom" constant="8" id="aIZ-hw-0DN"/>
-                            <constraint firstItem="1uF-GE-ujE" firstAttribute="leading" secondItem="hoZ-TS-lZE" secondAttribute="leading" constant="18" id="cAx-u3-soM"/>
-                            <constraint firstItem="3Ve-Mn-Eyk" firstAttribute="leading" secondItem="hoZ-TS-lZE" secondAttribute="leading" constant="18" id="eNO-CR-LGx"/>
-                            <constraint firstItem="K1N-tC-XaN" firstAttribute="leading" secondItem="hoZ-TS-lZE" secondAttribute="leading" constant="18" id="jId-9A-coo"/>
-                            <constraint firstAttribute="trailing" secondItem="Pel-jx-GnE" secondAttribute="trailing" constant="18" id="kY1-EX-hEK"/>
-                            <constraint firstAttribute="trailing" secondItem="K1N-tC-XaN" secondAttribute="trailing" constant="18" id="ohX-gy-wAp"/>
-                            <constraint firstItem="3Ve-Mn-Eyk" firstAttribute="top" secondItem="8bZ-ko-uyA" secondAttribute="bottom" constant="100" id="vFp-Ci-jcw"/>
-                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calender" image="schedule" id="nBw-48-Klc"/>
+                    <tabBarItem key="tabBarItem" title="" image="schedule" id="nBw-48-Klc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i4g-6y-6yx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -213,11 +204,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="J0y-WF-M18">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="715"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="G8i-97-qgr">
-                                <rect key="frame" x="0.0" y="23" width="35" height="47"/>
+                                <rect key="frame" x="9" y="23" width="35" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwv-zn-RED">
@@ -238,11 +229,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.00026711768180000001" green="0.2139321451" blue="0.00041441808919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Student Card" image="student card" id="Snv-rN-gf8"/>
+                    <tabBarItem key="tabBarItem" title="" image="student card" id="Snv-rN-gf8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWh-M0-l91" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="896.79999999999995" y="938.68065967016503"/>
+            <point key="canvasLocation" x="895.6521739130435" y="938.31521739130437"/>
         </scene>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
@@ -256,8 +247,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Hnh-Gk-X3b">
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Hnh-Gk-X3b">
                                 <rect key="frame" x="0.0" y="28" width="414" height="716"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="939-L3-6qe">
                                 <rect key="frame" x="16" y="108" width="170" height="128"/>
@@ -300,16 +292,12 @@
                                 <color key="backgroundColor" red="0.52983184347076762" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1S-5v-6zu">
-                                <rect key="frame" x="115" y="28" width="145" height="36"/>
+                                <rect key="frame" x="135" y="42" width="145" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="0.027576664720000001" green="0.175680432" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="p6V-Li-6Zm">
-                                <rect key="frame" x="36" y="34" width="35" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqY-LU-Hbh">
                                 <rect key="frame" x="318" y="40" width="76" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -318,15 +306,14 @@
                                     <segue destination="6g3-EQ-kNN" kind="show" id="54t-bu-hFb"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="p6V-Li-6Zm">
+                                <rect key="frame" x="20" y="37" width="35" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.00026711768180000001" green="0.2139321451" blue="0.00041441808919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Hnh-Gk-X3b" secondAttribute="trailing" id="Hy2-eD-kHx"/>
-                            <constraint firstItem="Hnh-Gk-X3b" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="ZkY-Y1-lj7"/>
-                            <constraint firstItem="Hnh-Gk-X3b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mhJ-kw-7aM"/>
-                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="home" id="oCp-ZI-lBb"/>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="oCp-ZI-lBb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -466,7 +453,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.00026711768180000001" green="0.2139321451" blue="0.00041441808919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Events" image="announcments" id="wXw-7Y-NdF"/>
+                    <tabBarItem key="tabBarItem" title="" image="announcments" id="wXw-7Y-NdF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Xn-4F-Tbl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -605,10 +592,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="3Ws-CV-GQz">
-                                <rect key="frame" x="0.0" y="20" width="375" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameron Logo" translatesAutoresizingMaskIntoConstraints="NO" id="jIg-TN-ghL">
                                 <rect key="frame" x="0.0" y="23" width="35" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -623,11 +606,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOD-Vk-cEn">
                                 <rect key="frame" x="313" y="28" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" backgroundImage="Arrow Shape"/>
                                 <connections>
                                     <action selector="ReturnButton:" destination="6g3-EQ-kNN" eventType="touchUpInside" id="wBf-OB-iLU"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="3Ws-CV-GQz">
+                                <rect key="frame" x="0.0" y="20" width="414" height="588"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.00026711768180000001" green="0.2139321451" blue="0.00041441808919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -635,11 +622,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tap-TQ-JST" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="896.79999999999995" y="1717.6911544227887"/>
+            <point key="canvasLocation" x="895.6521739130435" y="1717.663043478261"/>
         </scene>
     </scenes>
     <resources>
         <image name="Active State" width="110" height="66"/>
+        <image name="Arrow Shape" width="9" height="18"/>
         <image name="Block Background" width="238" height="68"/>
         <image name="Cameron Logo" width="34" height="47"/>
         <image name="L U N C H" width="46" height="8"/>
@@ -652,6 +640,6 @@
         <image name="student card" width="53" height="36"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="54t-bu-hFb"/>
+        <segue reference="qxL-B8-rUg"/>
     </inferredMetricsTieBreakers>
 </document>
