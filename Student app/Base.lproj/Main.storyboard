@@ -603,6 +603,10 @@
                                 <color key="textColor" red="0.027576664720000001" green="0.175680432" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="3Ws-CV-GQz">
+                                <rect key="frame" x="0.0" y="20" width="414" height="588"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOD-Vk-cEn">
                                 <rect key="frame" x="313" y="28" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -611,10 +615,6 @@
                                     <action selector="ReturnButton:" destination="6g3-EQ-kNN" eventType="touchUpInside" id="wBf-OB-iLU"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="3Ws-CV-GQz">
-                                <rect key="frame" x="0.0" y="20" width="414" height="588"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.00026711768180000001" green="0.2139321451" blue="0.00041441808919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
