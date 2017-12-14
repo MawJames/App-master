@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC43667D1FE2C89A0071B3AF /* StudentCardLandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43667C1FE2C89A0071B3AF /* StudentCardLandscape.swift */; };
+		BC43667F1FE2CD500071B3AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43667E1FE2CD500071B3AF /* HomeViewController.swift */; };
+		BC4366811FE2CD570071B3AF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4366801FE2CD570071B3AF /* ScheduleViewController.swift */; };
+		BC4366831FE2CD5F0071B3AF /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4366821FE2CD5F0071B3AF /* AnnouncementsViewController.swift */; };
+		BC4366851FE2CE1C0071B3AF /* Code39.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC4366841FE2CE1C0071B3AF /* Code39.ttf */; };
 		BC78F6A21FAB598900F167F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78F6A11FAB598900F167F0 /* AppDelegate.swift */; };
 		BC78F6A41FAB598900F167F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78F6A31FAB598900F167F0 /* ViewController.swift */; };
 		BC78F6A71FAB598900F167F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC78F6A51FAB598900F167F0 /* Main.storyboard */; };
@@ -14,9 +19,6 @@
 		BC78F6AC1FAB598900F167F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC78F6AA1FAB598900F167F0 /* LaunchScreen.storyboard */; };
 		BC7E9D5C1FD1AE0B00EF9543 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E9D5B1FD1AE0B00EF9543 /* LoginViewController.swift */; };
 		BC7E9DA21FD9967100EF9543 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E9DA11FD9967100EF9543 /* SettingsViewController.swift */; };
-		BCA9EFC71FB9F5900046830C /* anke-art-README-deutsch.txt in Resources */ = {isa = PBXBuildFile; fileRef = BCA9EFC41FB9F58F0046830C /* anke-art-README-deutsch.txt */; };
-		BCA9EFC81FB9F5900046830C /* anke-art-README-english.txt in Resources */ = {isa = PBXBuildFile; fileRef = BCA9EFC51FB9F58F0046830C /* anke-art-README-english.txt */; };
-		BCA9EFC91FB9F5900046830C /* BarcodeFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCA9EFC61FB9F58F0046830C /* BarcodeFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC43667C1FE2C89A0071B3AF /* StudentCardLandscape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCardLandscape.swift; sourceTree = "<group>"; };
+		BC43667E1FE2CD500071B3AF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC4366801FE2CD570071B3AF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		BC4366821FE2CD5F0071B3AF /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
+		BC4366841FE2CE1C0071B3AF /* Code39.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Code39.ttf; sourceTree = "<group>"; };
 		BC78F69E1FAB598900F167F0 /* Student app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC78F6A11FAB598900F167F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC78F6A31FAB598900F167F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +55,6 @@
 		BC78F6BD1FAB598A00F167F0 /* Student appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7E9D5B1FD1AE0B00EF9543 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BC7E9DA11FD9967100EF9543 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		BCA9EFC41FB9F58F0046830C /* anke-art-README-deutsch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "anke-art-README-deutsch.txt"; sourceTree = "<group>"; };
-		BCA9EFC51FB9F58F0046830C /* anke-art-README-english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "anke-art-README-english.txt"; sourceTree = "<group>"; };
-		BCA9EFC61FB9F58F0046830C /* BarcodeFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BarcodeFont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,10 @@
 				BC78F6A31FAB598900F167F0 /* ViewController.swift */,
 				BC78F6A51FAB598900F167F0 /* Main.storyboard */,
 				BC7E9D5B1FD1AE0B00EF9543 /* LoginViewController.swift */,
+				BC43667E1FE2CD500071B3AF /* HomeViewController.swift */,
+				BC4366821FE2CD5F0071B3AF /* AnnouncementsViewController.swift */,
+				BC4366801FE2CD570071B3AF /* ScheduleViewController.swift */,
+				BC43667C1FE2C89A0071B3AF /* StudentCardLandscape.swift */,
 				BC7E9DA11FD9967100EF9543 /* SettingsViewController.swift */,
 				BC78F6A81FAB598900F167F0 /* Assets.xcassets */,
 				BC78F6AA1FAB598900F167F0 /* LaunchScreen.storyboard */,
@@ -115,9 +123,7 @@
 		BCA9EFC31FB9F58F0046830C /* barcode_font */ = {
 			isa = PBXGroup;
 			children = (
-				BCA9EFC41FB9F58F0046830C /* anke-art-README-deutsch.txt */,
-				BCA9EFC51FB9F58F0046830C /* anke-art-README-english.txt */,
-				BCA9EFC61FB9F58F0046830C /* BarcodeFont.ttf */,
+				BC4366841FE2CE1C0071B3AF /* Code39.ttf */,
 			);
 			path = barcode_font;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 				TargetAttributes = {
 					BC78F69D1FAB598800F167F0 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SV6YNKA2JW;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -232,12 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA9EFC71FB9F5900046830C /* anke-art-README-deutsch.txt in Resources */,
 				BC78F6AC1FAB598900F167F0 /* LaunchScreen.storyboard in Resources */,
-				BCA9EFC91FB9F5900046830C /* BarcodeFont.ttf in Resources */,
+				BC4366851FE2CE1C0071B3AF /* Code39.ttf in Resources */,
 				BC78F6A91FAB598900F167F0 /* Assets.xcassets in Resources */,
 				BC78F6A71FAB598900F167F0 /* Main.storyboard in Resources */,
-				BCA9EFC81FB9F5900046830C /* anke-art-README-english.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +270,11 @@
 				BC7E9D5C1FD1AE0B00EF9543 /* LoginViewController.swift in Sources */,
 				BC78F6A41FAB598900F167F0 /* ViewController.swift in Sources */,
 				BC7E9DA21FD9967100EF9543 /* SettingsViewController.swift in Sources */,
+				BC4366831FE2CD5F0071B3AF /* AnnouncementsViewController.swift in Sources */,
 				BC78F6A21FAB598900F167F0 /* AppDelegate.swift in Sources */,
+				BC43667D1FE2C89A0071B3AF /* StudentCardLandscape.swift in Sources */,
+				BC4366811FE2CD570071B3AF /* ScheduleViewController.swift in Sources */,
+				BC43667F1FE2CD500071B3AF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +440,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = SV6YNKA2JW;
 				INFOPLIST_FILE = "Student app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kieran-Knowles-Welshman.Student-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,8 +458,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = SV6YNKA2JW;
 				INFOPLIST_FILE = "Student app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kieran-Knowles-Welshman.Student-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
